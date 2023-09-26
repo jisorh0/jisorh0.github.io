@@ -1,28 +1,67 @@
- <script src="https://unpkg.com/launchdarkly-js-client-sdk@3"></script>
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+      <h1>Great LinkedIn Learning Courses</h1>
 
-<h1>Great LinkedIn Learning Courses</h1>
+   <div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/continuous-delivery-for-cloud-native-java-apps/delivering-modern-java-applications?autoplay=false&claim=AQGjopxSX-vJlgAAAYrR9762DEy3V0q0uAUxPOy5TgunNwZ1C1AmtCG2_Ks83H6gd4fEFTtO-1iU9HeyC65YMlKe0fufpADYs3i4lCbZHv4LY0CEfp6MJ-raNyhjYQ-lzHXhi_TAb_8Ig9VmWMMTyGFUIfeewZsFSJ-zXkR7K_eM2EUQ5JvVYKGh4BYWdWzrNL-iUMz0aJuiDLdhoJkN_xlmm_FugAD9iEnP6Yzel79RxzPbptKwJ7XdrQHVy8zB1BxguRGdWK8-k376yq7hr-q2smKsilqOg7VXgvEu3cIT3bVw3q1E34D1V0YTdhLas-a4nBotDq4fSN9nNN4_aZT-6XxbUwT_UHdrczAtn7My-muE0UliCQQACOzXcqmRdiudoXwNNUfc6lsyUiv7CFTjAYKtiKBrQZ6Xgvr_seNjpdBwKUoIhlXe-S_ylWY4eFf1LodFVSn2JOr1piBtRAeifTApA20Zw5p5MmHCT5C4LBz5gKhPj1TbAfuJ-D6z_CO0-b0N95YN7a5ZA13WGwijD8IWPo0WKEn9uj4JcNPI8phpnCuY7QJBsTi4DRw5DGCaGHPzqptlFp6umKS9W2JuejTIl57uIMySObz2hkGabMK2qlLHJAuUVEHZyXomH5e5gAfxORwNiLOxQFJReNgfUeoz2VtH_xxd_2gQgVlctZtn_wB4zAqYgr_QR9oe7dQSX1o8YJ8b0J-AuB7NnDXYy0zCP9DGsHGPVvGbGcDLXvKwXDEERlihveslNhsPmo2FxhrllU2b79KiTZ4ufUiZ8ohrWL8RIN86iJTXisjeJpVBjkBrDf-kG7L2dKUBJ03eEqHd1dLuklSdZa8272d1mPeJPS6mEtXR_2lk9fVrWSHKgUTl_wF7MofyHVhGvsh_E9hY5mLggNnK8Z8pY_JMPBd9zRDfFDiyeW9XOZMeU402RmG6BnbTijiJrNhn8y71eEM2p8NRHlrYcR54LIUuCae3PUXZJ-B4QyGCgajm3Z9DOV9HRLar1t5OfGbR9L-vtbpeWoChtOYszM76rhYhI31RSG74bD6kbYnFSqL01Ji6RhEIlMTG7z2qvLCtXT2WsmWKA-3fHY3z_u0fEOltwhli9MO0UCwyEimZeoiMivC7sFr5EGofDnNuDQOROO3hecHa8_I1jJQeBuxjvyrlXfWXpxG8VJ0xGxYljS0DO7z-x5mr66sRGoplGAY8FGNh19hHtT66oM3l9XOIXKUCcNw" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/continuous-delivery-for-cloud-native-java-apps/delivering-modern-java-applications?trk=embed_lil">Delivering modern Java applications</a></strong> from <strong><a href="https://www.linkedin.com/learning/continuous-delivery-for-cloud-native-java-apps?trk=embed_lil">Continuous Delivery for Cloud Native Java Apps</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/kevin-bowersox?trk=embed_lil">Kevin Bowersox</a></strong></p>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/continuous-delivery-for-cloud-native-java-apps/delivering-modern-java-applications?autoplay=false&claim=AQGjopxSX-vJlgAAAYrR9762DEy3V0q0uAUxPOy5TgunNwZ1C1AmtCG2_Ks83H6gd4fEFTtO-1iU9HeyC65YMlKe0fufpADYs3i4lCbZHv4LY0CEfp6MJ-raNyhjYQ-lzHXhi_TAb_8Ig9VmWMMTyGFUIfeewZsFSJ-zXkR7K_eM2EUQ5JvVYKGh4BYWdWzrNL-iUMz0aJuiDLdhoJkN_xlmm_FugAD9iEnP6Yzel79RxzPbptKwJ7XdrQHVy8zB1BxguRGdWK8-k376yq7hr-q2smKsilqOg7VXgvEu3cIT3bVw3q1E34D1V0YTdhLas-a4nBotDq4fSN9nNN4_aZT-6XxbUwT_UHdrczAtn7My-muE0UliCQQACOzXcqmRdiudoXwNNUfc6lsyUiv7CFTjAYKtiKBrQZ6Xgvr_seNjpdBwKUoIhlXe-S_ylWY4eFf1LodFVSn2JOr1piBtRAeifTApA20Zw5p5MmHCT5C4LBz5gKhPj1TbAfuJ-D6z_CO0-b0N95YN7a5ZA13WGwijD8IWPo0WKEn9uj4JcNPI8phpnCuY7QJBsTi4DRw5DGCaGHPzqptlFp6umKS9W2JuejTIl57uIMySObz2hkGabMK2qlLHJAuUVEHZyXomH5e5gAfxORwNiLOxQFJReNgfUeoz2VtH_xxd_2gQgVlctZtn_wB4zAqYgr_QR9oe7dQSX1o8YJ8b0J-AuB7NnDXYy0zCP9DGsHGPVvGbGcDLXvKwXDEERlihveslNhsPmo2FxhrllU2b79KiTZ4ufUiZ8ohrWL8RIN86iJTXisjeJpVBjkBrDf-kG7L2dKUBJ03eEqHd1dLuklSdZa8272d1mPeJPS6mEtXR_2lk9fVrWSHKgUTl_wF7MofyHVhGvsh_E9hY5mLggNnK8Z8pY_JMPBd9zRDfFDiyeW9XOZMeU402RmG6BnbTijiJrNhn8y71eEM2p8NRHlrYcR54LIUuCae3PUXZJ-B4QyGCgajm3Z9DOV9HRLar1t5OfGbR9L-vtbpeWoChtOYszM76rhYhI31RSG74bD6kbYnFSqL01Ji6RhEIlMTG7z2qvLCtXT2WsmWKA-3fHY3z_u0fEOltwhli9MO0UCwyEimZeoiMivC7sFr5EGofDnNuDQOROO3hecHa8_I1jJQeBuxjvyrlXfWXpxG8VJ0xGxYljS0DO7z-x5mr66sRGoplGAY8FGNh19hHtT66oM3l9XOIXKUCcNw" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/continuous-delivery-for-cloud-native-java-apps/delivering-modern-java-applications?trk=embed_lil">Delivering modern Java applications</a></strong> from <strong><a href="https://www.linkedin.com/learning/continuous-delivery-for-cloud-native-java-apps?trk=embed_lil">Continuous Delivery for Cloud Native Java Apps</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/kevin-bowersox?trk=embed_lil">Kevin Bowersox</a></strong></p>
+   <div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/gitops-foundations/an-enhanced-approach-to-devops?autoplay=false&claim=AQHMroinxBIJBQAAAYrNbJi-ftWu2LU-oWP5GR9xRp2Zyko9LNfmgbmCQ8fCFR1BWABzfgUZKUgm-mq-p4fw7hSMijHC1Q8Tqkx9_twNpcoBJZogGMTxm08sjapIoMuj_8_LP9BPOq_2Aj1OiVwRkXw4fuz2usazmQ94AHgBuNZ3cOUPKW1YwsXKX-vfc4em1STrKQ_5pGphRdV295imSsPOJc2k_fF5HubgcQLqX8QCSGveDGb8MvxX98QEazkjk0nTDiAMMyuYQ6B3xipz2Q2xtebylurjp6vVokbjtC55KildrshG6avq_2tLTCcnYXYdzNv5csMvtv6XGk62e1AKB2oIf2tRjWpgg4yb72ag6lKgGzKc2OUhvGaBJYoEvpsCBfop1Y9UV344XzDt2Z5c8Lac4-gz_ijPU4CRQskmDAQIjdqjObTGbBNJcOMGoGcWwD5R1mY20vojXCQczimodc2M8HyGag-ECuvBqhd-UlwqoF5olGsfhhDtsGaex3fjXnKs9qPBKYs1nkNjMmb2iXvEy8K5onmVUImANA6URrAEYF6YyqScHrXlNk0pDNmHNy0Ee5wbbCHOFyYzqE7SPPi19fAZbkxrFN5SwJN2bTF6fMDVBJZaTxhSITO5Z_mO41_dbpwIOHPMsviZ4mJ9TZn0FP9AtTUPz2-Kv-c84DtXKhF9o7o8nF8ys-bWQ5nw5264X3N3RjOUTSQ4-4raGmGelGYxWWFTrjI3vlSy8F5ADPqMm9qSj8o_2HNg859iGCmANrDJIPqA-VmpHoOxHosg1kHGHM8EUaqUU9jb7_5BcNXey1MwCs0JufCNYihL4Bx2j5u36R5JN7BJbecd5MkyOD-kt8tT4EPNseOlKTnZxFIdU_8dZ1h2qC1ioE6ewnR2y03REz2MXSBN8BCA4QG-903NpSbsRfcTAIHwa2fbeHG2LI6pgz3_q9-Lmo41vzfa_2MpD0tW-RmlD2BBaHw6OQ0xVq7HQi3FGV_vtIlmph2BaK0pymT0bjWyfkRxrlUGGi_izy3_hlbN1N-ui8eZiC28NMoggrkEc-xhUnDRMAjP2f-h5550VQTpDorKBz1LfO_UIIX6PJ-vCCI8VozF3M0f_0bRSZ6Ip5HujzQSBgO0e4uRrikNH-tAIaoEc4O4RMGLUdjDubMIPPuMIywyFWJU0U5sDod98VL-mxgdvN5t4psjGZVuUEJoLCu7GPcMDTwCrnIAIKkkiBDzZog" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/gitops-foundations/an-enhanced-approach-to-devops?trk=embed_lil">An enhanced approach to DevOps</a></strong> from <strong><a href="https://www.linkedin.com/learning/gitops-foundations?trk=embed_lil">GitOps Foundations</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/kevin-bowersox?trk=embed_lil">Kevin Bowersox</a></strong></p>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/gitops-foundations/an-enhanced-approach-to-devops?autoplay=false&claim=AQHMroinxBIJBQAAAYrNbJi-ftWu2LU-oWP5GR9xRp2Zyko9LNfmgbmCQ8fCFR1BWABzfgUZKUgm-mq-p4fw7hSMijHC1Q8Tqkx9_twNpcoBJZogGMTxm08sjapIoMuj_8_LP9BPOq_2Aj1OiVwRkXw4fuz2usazmQ94AHgBuNZ3cOUPKW1YwsXKX-vfc4em1STrKQ_5pGphRdV295imSsPOJc2k_fF5HubgcQLqX8QCSGveDGb8MvxX98QEazkjk0nTDiAMMyuYQ6B3xipz2Q2xtebylurjp6vVokbjtC55KildrshG6avq_2tLTCcnYXYdzNv5csMvtv6XGk62e1AKB2oIf2tRjWpgg4yb72ag6lKgGzKc2OUhvGaBJYoEvpsCBfop1Y9UV344XzDt2Z5c8Lac4-gz_ijPU4CRQskmDAQIjdqjObTGbBNJcOMGoGcWwD5R1mY20vojXCQczimodc2M8HyGag-ECuvBqhd-UlwqoF5olGsfhhDtsGaex3fjXnKs9qPBKYs1nkNjMmb2iXvEy8K5onmVUImANA6URrAEYF6YyqScHrXlNk0pDNmHNy0Ee5wbbCHOFyYzqE7SPPi19fAZbkxrFN5SwJN2bTF6fMDVBJZaTxhSITO5Z_mO41_dbpwIOHPMsviZ4mJ9TZn0FP9AtTUPz2-Kv-c84DtXKhF9o7o8nF8ys-bWQ5nw5264X3N3RjOUTSQ4-4raGmGelGYxWWFTrjI3vlSy8F5ADPqMm9qSj8o_2HNg859iGCmANrDJIPqA-VmpHoOxHosg1kHGHM8EUaqUU9jb7_5BcNXey1MwCs0JufCNYihL4Bx2j5u36R5JN7BJbecd5MkyOD-kt8tT4EPNseOlKTnZxFIdU_8dZ1h2qC1ioE6ewnR2y03REz2MXSBN8BCA4QG-903NpSbsRfcTAIHwa2fbeHG2LI6pgz3_q9-Lmo41vzfa_2MpD0tW-RmlD2BBaHw6OQ0xVq7HQi3FGV_vtIlmph2BaK0pymT0bjWyfkRxrlUGGi_izy3_hlbN1N-ui8eZiC28NMoggrkEc-xhUnDRMAjP2f-h5550VQTpDorKBz1LfO_UIIX6PJ-vCCI8VozF3M0f_0bRSZ6Ip5HujzQSBgO0e4uRrikNH-tAIaoEc4O4RMGLUdjDubMIPPuMIywyFWJU0U5sDod98VL-mxgdvN5t4psjGZVuUEJoLCu7GPcMDTwCrnIAIKkkiBDzZog" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/gitops-foundations/an-enhanced-approach-to-devops?trk=embed_lil">An enhanced approach to DevOps</a></strong> from <strong><a href="https://www.linkedin.com/learning/gitops-foundations?trk=embed_lil">GitOps Foundations</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/kevin-bowersox?trk=embed_lil">Kevin Bowersox</a></strong></p>
+   <div id="preview" style="display:none">
+   <div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/learning-java-collections/java-collections-framework?autoplay=false&claim=AQGIrM6-i733iAAAAYrSPzbqozJQD57JRvJUwoIjuqUvXTTiK4u7wRovehZxsodkiFS2UGCBJgRB45HNfAZneGolPQjJmqrFFoXxE8uQtulQoyR4kp4N2E8-1R5wLJp2IuynkmHTwVMIPTf30dHNJrDvUKKorNTbk0ZmEzzx8hLAq2xfh5LqG-3MXhH5tNlFY99Sgerjrt4lnKd0wtJFwwMvQD0XsEu_gNW3QEwtfn77k5RjCXAIcmJ1g1HCLy7Ranasd_SSkGOs2nS1nB21PZfyHLWjK38C0oLbwXGb4olhqCQVld2FAD0cmOkNat0OESal5B9HMlQlR8a8QN9Bonh0g6FGsyVSM7lVLV9OFzaTnbNrcXjnbcYvtAlMbSD1mtnOyyBj3QXTfkfDYpFySSxXAyN0IqSkJTcEQnY9inetXDJ5RzhymXPdS0ALpQ_SL-QcDjPHG3JOAGs1vowYnP2UD8Qfa7XYRcrbW1UMmP0GQOLZcuYnQ3uAjfkSkkibTx4d2VIudLs08sSow00ePExW4PQ85xBtPOpz8KuiYXylx20t5BW6bnm3uiiLdxzxcCIsMKFT2niQfb0jpwqdfHAEGiUWPnPqoLM-FTGswqbrnnLOaJVZAJXHGp78NruN1noF98_3cJDvpEOPu5cZRxdTF1ZUC774u8EHszhUVmucohpiAyM0EWQmceolqUIHS2cKwcy5w97hfUP8WWwr1cwdK9m7-TSsHQj_EwMCrD3275wKIWCat-emn1noFKZl-kHIO1QmWIk3Tin1gSYYDG2Jth2KMvFHDt-7QIxuJi1lz1moUP5ZVVq8cXyV3xeb4oKTWUW8lvN2Vgf4Mwl2sbdhc83ynxoUHXGfSeJOtqBbTd_MwLuAoXhrU90XQg4ZWszHXHs6CFfd4ibE6y3VZU8C7if2kRlbieI8nJYFF2Uxs5ueGcdkOkHJNLWH1crFPA67DzvYPis2Mwlv-tjuI5zS8gjFeuWZaIOtXOUqTWZkCG5gcrMJNiuOJqNBkJ_EdYygEipjCT8iLPWhO0DLxCvgJlUhbp9Its_hUmJwiobDS9M5uyYEU3RJNd84C95MryaLdMx9H3bDgIvA_TCc6zy516wJFBXBztdZQ3i8KpK7FpXUA-pqLY4QJ5Y3js8VFx7tzx9YN7neEahAFNXAoeM8Oh6zWLJmrgtbsI4RRFj3PntFgesL09oq__FPUiQQA4KvHlke1GOYuK6v3QW7zhRRpSo" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/learning-java-collections/java-collections-framework?trk=embed_lil">Java collections framework</a></strong> from <strong><a href="https://www.linkedin.com/learning/learning-java-collections?trk=embed_lil">Learning Java Collections</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/kevin-bowersox?trk=embed_lil">Kevin Bowersox</a></strong></p>
+      <script src="https://unpkg.com/launchdarkly-js-client-sdk@3"></script>
+    </head>
+    <body>
+      <script>
+      function main()
+      {
+        // Set clientSideID to your LaunchDarkly client-side ID
+        const clientSideID = '651302f0136030122b2e5589';
 
-<div id="preview" style="display:none">
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/learning-java-collections/java-collections-framework?autoplay=false&claim=AQGIrM6-i733iAAAAYrSPzbqozJQD57JRvJUwoIjuqUvXTTiK4u7wRovehZxsodkiFS2UGCBJgRB45HNfAZneGolPQjJmqrFFoXxE8uQtulQoyR4kp4N2E8-1R5wLJp2IuynkmHTwVMIPTf30dHNJrDvUKKorNTbk0ZmEzzx8hLAq2xfh5LqG-3MXhH5tNlFY99Sgerjrt4lnKd0wtJFwwMvQD0XsEu_gNW3QEwtfn77k5RjCXAIcmJ1g1HCLy7Ranasd_SSkGOs2nS1nB21PZfyHLWjK38C0oLbwXGb4olhqCQVld2FAD0cmOkNat0OESal5B9HMlQlR8a8QN9Bonh0g6FGsyVSM7lVLV9OFzaTnbNrcXjnbcYvtAlMbSD1mtnOyyBj3QXTfkfDYpFySSxXAyN0IqSkJTcEQnY9inetXDJ5RzhymXPdS0ALpQ_SL-QcDjPHG3JOAGs1vowYnP2UD8Qfa7XYRcrbW1UMmP0GQOLZcuYnQ3uAjfkSkkibTx4d2VIudLs08sSow00ePExW4PQ85xBtPOpz8KuiYXylx20t5BW6bnm3uiiLdxzxcCIsMKFT2niQfb0jpwqdfHAEGiUWPnPqoLM-FTGswqbrnnLOaJVZAJXHGp78NruN1noF98_3cJDvpEOPu5cZRxdTF1ZUC774u8EHszhUVmucohpiAyM0EWQmceolqUIHS2cKwcy5w97hfUP8WWwr1cwdK9m7-TSsHQj_EwMCrD3275wKIWCat-emn1noFKZl-kHIO1QmWIk3Tin1gSYYDG2Jth2KMvFHDt-7QIxuJi1lz1moUP5ZVVq8cXyV3xeb4oKTWUW8lvN2Vgf4Mwl2sbdhc83ynxoUHXGfSeJOtqBbTd_MwLuAoXhrU90XQg4ZWszHXHs6CFfd4ibE6y3VZU8C7if2kRlbieI8nJYFF2Uxs5ueGcdkOkHJNLWH1crFPA67DzvYPis2Mwlv-tjuI5zS8gjFeuWZaIOtXOUqTWZkCG5gcrMJNiuOJqNBkJ_EdYygEipjCT8iLPWhO0DLxCvgJlUhbp9Its_hUmJwiobDS9M5uyYEU3RJNd84C95MryaLdMx9H3bDgIvA_TCc6zy516wJFBXBztdZQ3i8KpK7FpXUA-pqLY4QJ5Y3js8VFx7tzx9YN7neEahAFNXAoeM8Oh6zWLJmrgtbsI4RRFj3PntFgesL09oq__FPUiQQA4KvHlke1GOYuK6v3QW7zhRRpSo" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/learning-java-collections/java-collections-framework?trk=embed_lil">Java collections framework</a></strong> from <strong><a href="https://www.linkedin.com/learning/learning-java-collections?trk=embed_lil">Learning Java Collections</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/kevin-bowersox?trk=embed_lil">Kevin Bowersox</a></strong></p>
-</div>
+        // Set flagKey to the feature flag key you want to evaluate
+        const flagKey = 'course-preview';
 
-   <script>
-      var clientId = "651302f0136030122b2e5589";
-      var flagName = "course-preview";
-      var user = { anonymous: true };
-      var ldclient = window.LDClient.initialize(clientId, user);
+        // Set up the context properties. This context should appear on your
+        // LaunchDarkly contexts dashboard soon after you run the demo.
+        const context = {
+          kind: 'user',
+          key: 'example-context-key',
+          name: 'Sandy'
+        };
 
-      ldclient.on("ready", function() {
-         document.getElementById("preview").style.display = ldclient.variation(flagName, false) ?
-         "block":"none";
-      });
+        var div = document.createElement('div');
+        document.body.appendChild(div);
+        div.appendChild(document.createTextNode('Initializing...'));
 
-      ldclient.on("change:" + flagname, funciton(newVal, prevVal) {
-         document.getElementById("preview").style.display = newVal ? "block":"none";
-      });
+        const ldclient = LDClient.initialize(clientSideID, context);
 
+        function render() {
+          const flagValue = ldclient.variation(flagKey, false);
+          const label = 'Feature flag ' + flagKey + ' is ' + flagValue + ' for this context';
+          div.replaceChild(document.createTextNode(label), div.firstChild);
+        }
+
+        ldclient.on('initialized', () => {
+          div.appendChild(document.createTextNode('SDK successfully initialized!'), div.firstChild);
+        });
+        ldclient.on('failed', () => {
+          div.appendChild(document.createTextNode('SDK failed to initialize'), div.firstChild);
+        });
+        ldclient.on('ready', render);
+        ldclient.on('change', render);
+
+
+        // Here we ensure that the SDK shuts down cleanly and has a chance
+        // to deliver analytics envets to LaunchDarkly before the program
+        // exits. If analytics events are not delivered, the context properties
+        // and flag usage statistics will not appear on your dashboard.
+        // In a normal long-running application, the SDK would continue
+        // running and events would be delivered automatically in the background.
+        ldclient.close();
+      }
+      main();
       </script>
+    </body>
+  </html>
